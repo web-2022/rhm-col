@@ -1,0 +1,46 @@
+.redes-sociales {
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+
+.redes-sociales{
+    .icono{
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        background: #cbcbcb;
+        display: inline-block;
+        margin: 0px 20px;
+        text-decoration: none;
+        border-radius: 100px;
+        transition: all 3s ease;
+    }
+}
+
+.redes-sociales{
+    .icono{
+        svg{
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+
+//Media Queries
+@media (max-width: 576px){
+    .redes-sociales{
+        .icono{
+            width: 30px;
+            height: 30px; 
+        }
+    }
+
+    .redes-sociales{
+        .icono{
+            svg{
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+}

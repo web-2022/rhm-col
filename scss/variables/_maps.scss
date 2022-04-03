@@ -1,0 +1,18 @@
+$redes: (
+    facebook: rgb(4, 86, 238),
+    linkedin: rgb(3, 144, 231),
+    youtube: rgb(187, 34, 34),
+    whatsapp: rgb(12, 212, 62),
+);
+
+//Bucle
+
+
+@each $tipoRedes, $color in $redes{
+    .redes-sociales{
+        .#{$tipoRedes}{
+            background-color: $color;
+        }
+    }
+    
+}

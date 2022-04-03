@@ -1,0 +1,21 @@
+//RESETEO
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//VARIABLES
+@import './variables/colores';
+@import './variables/tamanios';
+
+
+//SECCIONES
+@import './secciones/header';
+@import './secciones/index';
+@import './secciones/footer';
+@import './variables/maps';
+@import './secciones/formulario';
+@import './secciones/_PlanificacionUG.scss'
+
+

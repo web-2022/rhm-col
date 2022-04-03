@@ -1,0 +1,118 @@
+.cuadro-precio {
+  position: relative;
+  left: auto;
+  top: 1510px;
+  width: 320px;
+
+  iframe{
+    width: 290px;
+  }
+}
+
+.cuadro-detalle {
+  position: absolute;
+  left: 0px;
+}
+
+.border-gris {
+  border: solid 1px gray;
+}
+
+// media queries
+// Cuando la pantalla tenga hasta un ancho mínimo de 320px
+
+@media (min-width: 320px) {
+  .cuadro-precio {
+    position: relative;
+    left: auto;
+    top: 1260px;
+    width: 340px;
+
+    iframe{
+      width: 320px;
+    }
+  }
+  h1{
+    margin: 0 10px;
+  }
+
+  h3{
+    margin: 0 10px;
+  }
+  h5{
+    margin: 0 10px;
+  }
+  p{
+    margin: 0 10px;
+  }
+
+  h4{
+    margin: 0 10px;
+  }
+  svg{
+    margin: 0 15px;
+  }
+}
+
+@media (min-width: 375px) {
+  .cuadro-precio {
+    position: relative;
+    left: auto;
+    top: 1140px;
+    width: 350px;
+  }
+}
+
+@media (min-width: 425px) {
+  .cuadro-precio {
+    position: relative;
+    left: auto;
+    top: 1090px;
+    width: 350px;
+  }
+}
+
+@media (min-width: 576px) {
+  .cuadro-precio {
+    position: relative;
+    left: 20px;
+    top: 900px;
+    width: 350px;
+  }
+}
+
+@media (min-width: 768px) {
+  .cuadro-precio {
+    position: relative;
+    left: 20px;
+    top: 620px;
+    width: 350px;
+  }
+}
+
+@media (min-width: 992px) {
+  .cuadro-precio {
+    position: fixed;
+    left: 630px;
+    top: 180px;
+    width: 350px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cuadro-precio {
+    position: fixed;
+    left: 700px;
+    top: 180px;
+    width: 350px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .cuadro-precio {
+    position: fixed;
+    left: 1000px;
+    top: 180px;
+    width: 350px;
+  }
+}

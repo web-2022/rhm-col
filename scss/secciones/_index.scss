@@ -1,0 +1,25 @@
+.titulo{    
+    color: $azul;   
+}
+
+.img-all{    
+    border-radius: 10%;   
+    padding: 1px; 
+    box-shadow: 0 10px 10px gray;
+}
+
+.barra{    
+    position: fixe;    
+}
+
+
+//Aplicando media queries a las imágenes del carousel
+@media(max-width:575px){
+    .img-carousel{
+        
+        height: 350px;
+    }
+}
+
+
+

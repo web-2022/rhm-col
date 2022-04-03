@@ -1,0 +1,98 @@
+.formulario{
+    height: 150px;
+}
+.formul{
+    background-color: #e5e7ec;
+    border-radius: 5%;
+    
+}
+
+//Formulario Campus//
+.formul-campus{
+    height: 300px;
+    background-color: $naranja;
+    border-radius: 5%;
+    margin: 128px 0;
+    
+    
+}
+
+.img-campus{
+    background-image: url('../img/Campus.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: center; 
+    
+    .text-aprende:hover{        
+            animation: efecto 3s;        
+    }
+    @keyframes efecto{
+        0%{
+            transform: translate(0vw ,0vh);            
+        }
+        20%{
+            transform: translate(4vw,-2vh);
+        }
+        40%{
+            transform: translate(8vw,-4vh);
+        }
+        60%{
+            transform: translate(12vw,-6vh);
+        }
+        80%{
+            transform: translate(16vw,-8vh);
+        }
+        100%{
+            transform: translate(20vw,-10vh);
+        }
+        
+    }         
+
+    }
+    
+    //Media Queries
+@media (max-width: 576px){
+    .img-campus{    
+                
+        .text-aprende:hover{        
+                animation: efecto 3s;
+            
+        }
+        @keyframes efecto{
+            0%{
+                transform: translate(0vw ,0vh);            
+            }
+            20%{
+                transform: translate(4vw,2vh);
+            }
+            40%{
+                transform: translate(8vw,4vh);
+            }
+            60%{
+                transform: translate(12vw,6vh);
+            }
+            80%{
+                transform: translate(16vw,8vh);
+            }
+            100%{
+                transform: translate(20vw,10vh);
+            }
+            
+        }         
+    
+        }
+}
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
